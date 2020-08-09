@@ -1,0 +1,78 @@
+{
+  "name": "Kaveesh Dashora",
+  "title": "Senior Engineer at Unisys India",
+  "picture": "profilePic.jpg",
+  "facebook": "//facebook.com/kaveeshd",
+  "linkedIn": "//www.linkedin.com/in/kaveeshdashora/",
+  "email": "mailto:kaveeshd@gmail.com",
+  "profileDetails": {
+    "summary": {
+      "tabName": "Professional Summary",
+      "details": [
+        "9+ years of R&D experience in Design and Development of enterprise applications, managing softwares from Requirements to Release phase. Experience on Agile and Kanban methodologies.",
+        "I have lead a team of 10+ people with the responsibilities of Scrum Master. I have proven my ability to start working on technical products effectively in minimal time, apply the learnings into business, performing extensive code reviews and mentoring new team members with the product.",
+        "Hands on experience of Windows Application development using VB.NET, C# with WinForms and WPF. Good understanding and experience of mainframe enterprise applications (MCP and OS 2200), mainframe databases (DMSII).",
+        "Experience of setting and working with up SVN and TFS repositories, creating Setup MSIs using Windows Installer XML (WiX) and Continuous Integration using Jenkins and SonarQube.",
+        "Ability to analyze and understand problems quickly and take end to end ownership of the tasks assigned."
+      ]
+    },
+    "experience": {
+      "tabName": "Professional Experience",
+      "details": [{
+          "position": "Working as a Senior Systems Engineer at Unisys India.",
+          "year": "May 2017 – Continuing."
+        },
+        {
+          "position": "Worked as an Engineer at Unisys India.",
+          "year": "April 2014 – April 2017."
+        },
+        {
+          "position": "Worked as an Associate Engineer at Unisys India.",
+          "year": "March 2011 – March 2014."
+        }
+      ]
+    },
+    "education": {
+      "tabName": "Education",
+      "details": [{
+          "institution": "Maulana Azad National Institute of Technology, Bhopal",
+          "degree": "Master of Technology (M.Tech)",
+          "specialization": "Computer Science and Engineering",
+          "year": "2008 - 2010",
+          "percentage": "CGPA 8.26 out of 10"
+        },
+        {
+          "institution": "Rajiv Gandhi Technical University, Bhopal",
+          "degree": "Bachelor of Engineering (B.E.)",
+          "specialization": "Computer Science and Engineering",
+          "year": "2004 - 2008",
+          "percentage": "68.22% out of 100%"
+        }
+      ]
+    },
+    "skills": {
+      "tabName": "Professional Skills",
+      "details": [{
+          "skillType": "Subjects",
+          "value": "Data Structures, Operating Systems"
+        },
+        {
+          "skillType": "Programming Skills",
+          "value": ".NET Framework, C#, XAML, WinForms, and Windows Installer XML (WiX). HTML."
+        },
+        {
+          "skillType": "Tools",
+          "value": "Subversion, Team Foundation Server, Jenkins and SonarQube"
+        },
+        {
+          "skillType": "Database Knowledge",
+          "value": "Microsoft SQL SERVER, MySQL 5.1."
+        },
+        {
+          "skillType": "Other Skills",
+          "value": "Good understanding of SDLC. Work experience in Agile and Kanban."
+        }
+      ]
+    }
+  }
+}

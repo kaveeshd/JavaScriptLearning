@@ -1,0 +1,128 @@
+<!--
+  06-ajax-profile-Kaveesh - feedback.html
+  Assignment from Day 6, Fundamentals of Web Technologies workshop.
+
+  Version 1, 2020-08-09,  DashoraK.
+
+  This is a sample feedback page with its javascript in the feedback.js file. 
+  It takes input form the user and displays it in the messages div.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="noindex" />
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-x1-8 offset-x1-2 py-5">
+
+        <h1>Feedback form for Kaveesh Dashora's Profile</h1>
+
+        <p class="lead">Please provide your valuable feedback on this form. It will help me in improving my profile.</p>
+
+        <div class="messages" id="messages"></div>
+
+        <form id="feedback-form" role="form">
+          <div class="controls">
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form-name">Firstname *</label>
+                  <input id="form-name" type="text" name="name" class="form-control"
+                         placeholder="Please enter your firstname *" required="required"
+                         data-error="Firstname is required.">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form-lastName">Lastname *</label>
+                  <input id="form-lastName" type="text" name="surname" class="form-control"
+                         placeholder="Please enter your lastname *" required="required"
+                         data-error="Lastname is required.">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form-email">Email *</label>
+                  <input id="form-email" type="email" name="email" class="form-control"
+                         placeholder="Please enter your email *" required="required"
+                         data-error="Valid email is required.">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form-rating">Please provide your rating *</label>
+                  <select id="form-rating" name="rating" class="form-control" required="required"
+                          data-error="Please specify your rating.">
+                    <option value=""></option>
+                    <option value="One Star">★ One Star</option>
+                    <option value="Two Stars">★★ Two Stars</option>
+                    <option value="Three Stars">★★★ Three Stars</option>
+                    <option value="Four Stars">★★★★ Four Stars</option>
+                    <option value="Five Stars">★★★★★ Five Stars</option>
+                  </select>
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="form-message">Message *</label>
+                  <textarea id="form-message" name="message" class="form-control" placeholder="Message for me *"
+                            rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <input type="submit" id="submitButton" class="btn btn-success btn-send" value="Send message">
+                <input type="button" id="backButton" class="btn btn-success btn-send" value="Back to profile page">
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="text-muted">
+                    <strong>*</strong> These fields are required.
+                </div>
+              </div>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="//code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+          integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="//stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+          integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+  <script src="feedback.js"></script>
+</body>
+
+</html>
